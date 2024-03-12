@@ -10,13 +10,13 @@ const Navbar = () => {
                     <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="MyPortfolio/">Home</NavLink>
                 </li>
                 <li>
-                    <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="MyPortfolio/About">About</NavLink>
+                    <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="/About">About</NavLink>
                 </li>
                 <li>
-                    <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="MyPortfolio/Education">Education</NavLink>
+                    <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="/Education">Education</NavLink>
                 </li>
                 <li>
-                    <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="MyPortfolio/Skills">Skills</NavLink>
+                    <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="/Skills">Skills</NavLink>
                 </li>
                 {/*
                 <li>
@@ -24,7 +24,7 @@ const Navbar = () => {
                 </li>
     */}
                 <li>
-                    <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="MyPortfolio/Contact">Contact</NavLink>
+                    <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="/Contact">Contact</NavLink>
                 </li>
             </ul>
         </nav>
