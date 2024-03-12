@@ -11,27 +11,27 @@ import {createBrowserRouter , RouterProvider} from 'react-router-dom'
 function App() {
   const router = createBrowserRouter([
     {
-      path:"MyPortfolio/",
+      path:"/MyPortfolio/",
       element:<Home/>
     },
     {
-      path:"MyPortfolio/About",
+      path:"/MyPortfolio/About",
       element:<About/>
     },
     {
-      path:"MyPortfolio/Education",
+      path:"/MyPortfolio/Education",
       element:<Education/>
     },
     {
-      path:"MyPortfolio/Skills",
+      path:"/MyPortfolio/Skills",
       element:<Skills/>
     },
     {
-      path:"MyPortfolio/Memories",
+      path:"/MyPortfolio/Memories",
       element:<Memories/>
     },
     {
-      path:"MyPortfolio/Contact",
+      path:"/MyPortfolio/Contact",
       element:<Contact/>
     },
     
